@@ -31,5 +31,10 @@ print(s11) #Searches the string for a specified value and returns the position o
 sformat='{} is going io office No:{}'
 sf=sformat.format("venky","10")
 print(sf)
-s12=st.index("2")
+s12=st.index("1")
 print(s12)
+st_num="venky"
+print(st_num.isnumeric())
+print(st_num.isalpha())
+title_st=st.title() #Converts the first character of each word to upper case
+print(title_st)
