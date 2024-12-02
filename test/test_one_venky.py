@@ -90,4 +90,3 @@ if given_num.isnumeric():
         print("given number is not prime")
     else:
         print("given number is prime")
-
