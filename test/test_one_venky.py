@@ -74,7 +74,7 @@ print(result_of_9)
 given_str_10="apple, banana, cherry"
 print(given_str_10.split(","))
 
-#//////////////////////NUMBERS/////////////////////////////
+#********************************NUMBER************************************
 
 #1.Write a program to check if a given number is prime.
 given_num=input("please enter numbers only: ")
@@ -88,5 +88,23 @@ if given_num.isnumeric():
                 x1=True
     if x1:
         print("given number is not prime")
+    elif num==1:
+        print("given number is not prime")
     else:
         print("given number is prime")
+
+#2. Find the greatest common divisor (GCD) of two numbers
+gcd_of_two_num_1=int(input("enter gcd1: "))
+gcd_of_two_num_2=int(input("enter gcd2: "))
+big_num=0
+if gcd_of_two_num_1>gcd_of_two_num_2:
+    big_num=gcd_of_two_num_1
+else:
+    big_num=gcd_of_two_num_2
+    gcd_li=[]
+for i in range(1,big_num+1):
+    if gcd_of_two_num_1%i==0 and gcd_of_two_num_2%i==0:
+        gcd_li.append(i)
+print(f' the GCF of {gcd_of_two_num_1} and {gcd_of_two_num_2} is {gcd_li[-1]}')
+
+#3. Generate a Fibonacci sequence up to 50.

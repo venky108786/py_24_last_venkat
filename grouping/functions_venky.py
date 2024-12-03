@@ -25,13 +25,15 @@ number between 1 to 10:''')
 
 #//////////////02.12.20024 task-1 multiples//////
 def multiples(mul):
+    li=[]
     for i in range(1,11):
-        print(f'{mul}*{i}={i*mul}')
-
+        li.append(f'{mul}*{i}={i*mul}')
+    return li
 
 x=input("enter multiple: ")
 if x.isnumeric():
-    multiples(int(x))
+    result=multiples(int(x))
+    print(*(result),sep="\n")
 else:
     print("please endter correct data")
 
