@@ -50,7 +50,7 @@ print(list_all_int_1)
 print(x)
 print("* "*5+"remove"+" *"*5) # remove element at specific value
 list_all_int_1.remove(2)
-print(list_all_int_1)z
+print(list_all_int_1)
 list_all_int_1.remove(5)
 print(list_all_int_1)
 print("* "*5+"reverse"+" *"*5)
