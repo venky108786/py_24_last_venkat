@@ -97,7 +97,7 @@ summ=0
 for item,qty in dic.items():
     print(f'{item:} {qty}')
     summ+=qty
-
+print(summ)
 
 
 print("************ \"cricket match\"*************")
