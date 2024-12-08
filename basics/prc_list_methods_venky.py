@@ -1,5 +1,6 @@
 from operator import truediv
 from turtledemo.penrose import start
+from datetime import date
 
 list_all_int= [1, 2, 6, 5, 8, 4, 3, 52, 46, 3,'hi']
 list_all_int_1=list_all_int.copy()
@@ -62,3 +63,11 @@ l.sort()
 print(l)
 l.sort(reverse=True)
 print(l)
+s="14524555lkd"
+for i in range(1,100,2):
+    print(i)
+vrr=0
+while vrr<10:
+    print(vrr)
+    vrr+=1
+print(date.today())

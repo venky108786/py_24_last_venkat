@@ -74,7 +74,9 @@ print(result_of_9)
 given_str_10="apple, banana, cherry"
 print(given_str_10.split(","))
 
-#//////////////////////NUMBERS/////////////////////////////
+#/************************NUMBERS***************************
+#************************************************************
+
 
 #1.Write a program to check if a given number is prime.
 given_num=input("please enter numbers only: ")
@@ -91,3 +93,4 @@ if given_num.isnumeric():
     else:
         print("given number is prime")
 
+#2. Find the greatest common divisor (GCD) of two numbers.
