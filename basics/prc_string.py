@@ -23,4 +23,4 @@ print(type(a),type(b), sep="\n")
 print(s.isalpha())
 print(s.isalnum())
 print(s.isdecimal())
-print(s[-1:0])
+print(s[-1:0])gi
